@@ -6,6 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
@@ -15,7 +19,7 @@ public class FullscreenActivity extends AppCompatActivity {
     private int mFailedCounter = 0;
     private int mCorrectCounter = 0;
     private int mIndex = 0;
-    private String mWords[];
+    private final List<String> mWords = new ArrayList<>();
     private TextView mWordTextView;
     private TextView mFailStatsView;
     private TextView mCorrectStatsView;
@@ -35,8 +39,12 @@ public class FullscreenActivity extends AppCompatActivity {
         mFailStatsView = (TextView)findViewById(R.id.fail_stats);
         mCorrectStatsView = (TextView)findViewById(R.id.correct_stats);
 
-        mWords = getResources().getStringArray(R.array.words);
-        mWordTextView.setText(mWords[mIndex]);
+        final String array[] = getResources().getStringArray(R.array.words);
+        for(int i = 0; i < array.length; i++) {
+            mWords.add(array[i]);
+        }
+        Collections.shuffle(mWords);
+        mWordTextView.setText(mWords.get(mIndex));
     }
 
     public void onFailButtonClick(final View v) {
@@ -53,12 +61,12 @@ public class FullscreenActivity extends AppCompatActivity {
 
     private void nextWord() {
         mIndex++;
-        if(mIndex > mWords.length - 1) {
+        if(mIndex > mWords.size() - 1) {
             mFailButton.setVisibility(View.GONE);
             mCorrectButton.setVisibility(View.GONE);
         }
         else {
-            mWordTextView.setText(mWords[mIndex]);
+            mWordTextView.setText(mWords.get(mIndex));
         }
     }
 }
