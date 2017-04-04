@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">TrickyWords</string>
+
+    <string name="fail_button">Fail</string>
+    <string name="correct_button">Correct</string>
+
+    <string-array name="words">
+        <item>just</item>
+        <item>keep</item>
+        <item>house</item>
+        <item>looks</item>
+        <item>I\'m</item>
+        <item>thing</item>
+        <item>them</item>
+        <item>cold</item>
+        <item>looking</item>
+        <item>can\'t</item>
+        <item>us</item>
+        <item>fell</item>
+        <item>take</item>
+        <item>oh</item>
+        <item>must</item>
+        <item>too</item>
+        <item>little</item>
+        <item>into</item>
+        <item>find</item>
+        <item>off</item>
+
+        <item>now</item>
+        <item>what</item>
+        <item>not</item>
+        <item>they</item>
+        <item>could</item>
+        <item>out</item>
+        <item>up</item>
+        <item>will</item>
+        <item>long</item>
+        <item>down</item>
+        <item>with</item>
+        <item>you</item>
+        <item>did</item>
+        <item>very</item>
+        <item>but</item>
+        <item>him</item>
+        <item>who</item>
+        <item>go</item>
+        <item>now</item>
+        <item>had</item>
+        <item>why</item>
+        <item>has</item>
+        <item>yes</item>
+        <item>that</item>
+
+        <item>some</item>
+        <item>as</item>
+        <item>good</item>
+        <item>out</item>
+        <item>there</item>
+        <item>have</item>
+        <item>one</item>
+        <item>help</item>
+        <item>all</item>
+        <item>gone</item>
+        <item>has</item>
+        <item>as</item>
+        <item>be</item>
+        <item>about</item>
+        <item>again</item>
+        <item>him</item>
+        <item>came</item>
+        <item>after</item>
+        <item>only</item>
+        <item>people</item>
+        <item>come</item>
+        <item>old</item>
+        <item>an</item>
+        <item>who</item>
+
+        <item>this</item>
+        <item>see</item>
+        <item>can</item>
+        <item>want</item>
+        <item>a</item>
+        <item>look</item>
+        <item>at</item>
+        <item>he</item>
+        <item>is</item>
+        <item>went</item>
+        <item>his</item>
+        <item>her</item>
+        <item>I</item>
+        <item>to</item>
+        <item>she</item>
+        <item>said</item>
+        <item>and</item>
+        <item>like</item>
+        <item>little</item>
+        <item>do</item>
+        <item>the</item>
+        <item>we</item>
+        <item>was</item>
+        <item>when</item>
+    </string-array>
+</resources>

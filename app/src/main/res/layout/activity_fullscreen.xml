@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#0099cc"
+             tools:context="trickywords.android.redwid.org.trickywords.FullscreenActivity">
+
+    <TextView
+        android:id="@+id/fail_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/correct_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/fail_stats"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:keepScreenOn="true"
+        android:textColor="#000000"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fail_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/fail_button"
+        android:onClick="onFailButtonClick"/>
+
+    <Button
+        android:id="@+id/correct_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/correct_button"
+        android:onClick="onCorrectButtonClick"/>
+
+</RelativeLayout>
