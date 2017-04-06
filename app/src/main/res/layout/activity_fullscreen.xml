@@ -38,7 +38,7 @@
         android:layout_centerInParent="true"
         android:keepScreenOn="true"
         android:textColor="#000000"
-        android:textSize="80sp"
+        android:textSize="100sp"
         android:textStyle="bold" />
 
     <Button
@@ -64,5 +64,12 @@
         android:layout_marginBottom="10dp"
         android:text="@string/correct_button"
         android:onClick="onCorrectButtonClick"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/correct_stats"
+        android:visibility="gone"/>
 
 </RelativeLayout>
