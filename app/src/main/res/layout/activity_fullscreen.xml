@@ -31,6 +31,18 @@
         android:text="0"/>
 
     <TextView
+        android:id="@+id/all_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#005c99"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="0"/>
+
+    <TextView
         android:id="@+id/word"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

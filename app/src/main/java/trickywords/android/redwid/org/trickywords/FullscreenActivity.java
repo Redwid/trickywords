@@ -28,6 +28,7 @@ public class FullscreenActivity extends AppCompatActivity {
     private TextView mWordTextView;
     private TextView mFailStatsView;
     private TextView mCorrectStatsView;
+    private TextView mAllStatsView;
     private Button mFailButton;
     private Button mCorrectButton;
     private RecyclerView mRecyclerView;
@@ -48,12 +49,14 @@ public class FullscreenActivity extends AppCompatActivity {
         mWordTextView = (TextView) findViewById(R.id.word);
         mFailStatsView = (TextView)findViewById(R.id.fail_stats);
         mCorrectStatsView = (TextView)findViewById(R.id.correct_stats);
+        mAllStatsView = (TextView)findViewById(R.id.all_stats);
 
         final String array[] = getResources().getStringArray(R.array.words);
         for(int i = 0; i < array.length; i++) {
             mWords.add(array[i]);
         }
         Collections.shuffle(mWords);
+        mAllStatsView.setText(Integer.toString(mWords.size()));
         mWordTextView.setText(mWords.get(mIndex));
     }
 
