@@ -1,5 +1,5 @@
 # TrickyWords
-Simple application to help your child to learn tricky words.
+Simple application for helping your child to learn tricky words.
 Created from the list of https://www.educatetogether.ie/ school words.
 
 ## Usage 
