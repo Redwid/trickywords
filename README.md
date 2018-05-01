@@ -7,8 +7,7 @@ Created from the list of https://www.educatetogether.ie/ school words.
 Compile, install, let your child to read word on the screen, press FAIL or CORRECT button to display the next word.
 At finish app shows a list of failed words.
 
-![alt text](/distr/progress.png)
-![alt text](/distr/result.png)
+![alt text](/distr/progress.png) ![alt text](/distr/result.png)
  
 
 ## License
