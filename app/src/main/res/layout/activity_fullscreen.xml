@@ -3,7 +3,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:background="#0099cc"
-             tools:context="trickywords.android.redwid.org.trickywords.FullscreenActivity">
+             tools:context="org.redwid.android.trickywords.FullscreenActivity">
 
     <TextView
         android:id="@+id/fail_stats"

@@ -1,4 +1,4 @@
-package trickywords.android.redwid.org.trickywords;
+package org.redwid.android.trickywords;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +13,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import trickywords.android.redwid.org.trickywords.R;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
