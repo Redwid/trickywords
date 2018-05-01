@@ -1,6 +1,6 @@
 # TrickyWords
 Simple application for helping your child to learn tricky words.
-Created from the list of https://www.educatetogether.ie/ school words.
+Created from the list of words provided to my son in https://www.educatetogether.ie/ school.
 
 ## Usage 
 
